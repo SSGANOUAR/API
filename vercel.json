@@ -1,0 +1,12 @@
+{
+"version": 2,
+"name":"API",
+"builds": [{
+    "src": "serveur.js"
+
+    }],
+"routes":[{
+    "src": "/(.*)", "dest": "serveur.js"
+}]
+
+}
